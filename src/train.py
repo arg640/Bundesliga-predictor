@@ -20,8 +20,9 @@ from sklearn.metrics import accuracy_score, log_loss, classification_report
 
 
 # --- Paths ---
-PROCESSED_DATA_DIR = Path("data") / "processed"
-MODELS_DIR = Path("models")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROCESSED_DATA_DIR = PROJECT_ROOT / "data" / "processed"
+MODELS_DIR = PROJECT_ROOT / "models"
 
 
 # --- Feature columns used by the models ---
