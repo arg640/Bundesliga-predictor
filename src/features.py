@@ -14,8 +14,9 @@ from pathlib import Path
 
 
 # --- Paths ---
-RAW_DATA_DIR = Path("data") / "raw"
-PROCESSED_DATA_DIR = Path("data") / "processed"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
+PROCESSED_DATA_DIR = PROJECT_ROOT / "data" / "processed"
 
 WINDOW = 5  # Number of recent matches to average over
 
