@@ -219,3 +219,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 scratch.py
+
+# Modelos entrenados (pesados, específicos de cada máquina)
+models/*.pkl
+models/*.joblib
