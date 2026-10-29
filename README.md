@@ -3,7 +3,7 @@
 A machine learning project that predicts 1X2 outcomes (Home Win / Draw / Away Win) 
 for Bundesliga matches using historical team statistics and Expected Goals (xG).
 
-**[👉 Try the live dashboard here](LINK_A_STREAMLIT_AQUI)** *(cuando lo despliegues)*
+**[👉 Try the live dashboard here](https://arg640-bundesliga-predictor.streamlit.app/)**
 
 ## 📊 Results
 
